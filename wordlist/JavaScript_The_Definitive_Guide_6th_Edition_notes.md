@@ -42,6 +42,10 @@
 10. They are intended as a __mind-expanding exploration__ of the power of JavaScript’s functions, not as a prescription for good programming style
 ##CHAPTER 9 Classes and Modules
 1. There are some __syntactic similarities__, and you can __emulate many features__ of “classical” classes in JavaScript, but it is best to understand up front that JavaScript’s classes and prototype-based inheritance mechanism are substantially different from the classes and class-based inheritance mechanism of Java and similar languages.
-2. 
-
+2. None of these techniques is __entirely satisfactory__, however, and the section concludes with a discussion of duck-typing, a programming philosophy that focuses on what an object can do (what methods it has) rather than what its class is.
+3. One possible __workaround__ is to use the name of the constructor function as the class identifier rather than the function itself. 
+4. Less frivolously, we might redesign our Range class so that instead of using the < and ++ operators, it uses the compareTo() and succ() (successor) methods of its endpoint objects.
+5. Inconsistent notions of equality can be a __pernicious__ source of bugs, and it is best to make your equals() and compareTo() methods consistent.
+6. We might want to create a Complex object initialized with a __radius__ and an __angle__ (polar coordinates) instead of __real and imaginary__ components, for example, or we might want to create a Set whose members are the elements of an array rather than the arguments passed to the constructor.
+7. The universe of all possible modules is split __neatly__ into two kinds, those modules that are part of a specific application, and those modules that aren't.
 
