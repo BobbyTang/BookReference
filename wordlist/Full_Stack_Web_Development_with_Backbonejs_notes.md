@@ -12,3 +12,5 @@
 5. Based on the __wireframe__ of Munich Cinema, an important principle of Backbone.js was explained: decoupling state from the user interface.
 ##Chapter 3. Building the User Interface
 1. Sometimes, you will see the use of ev.preventDefault() to stop the default event propagation. 
+##Chapter 10. Automated Workflows
+1. Most tools for workflow automation are actually framework __agnostic__, but a number of tools are repeatedly discussed in the Backbone ecosystem
